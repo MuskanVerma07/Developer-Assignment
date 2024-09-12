@@ -1,0 +1,15 @@
+Task 1. Choose a blockchain and set up the devnet/testnet
+
+Choose Solana as the blockchain for this assignment. We'll use the Solana devnet for testing purposes.
+
+To set up the Solana devnet, you'll need to install the Solana CLI on your machine. You can follow the instructions on the Solana documentation page: https://docs.solana.com/cli/install-solana-cli-tools
+
+Once you have the Solana CLI installed, you can create a new Solana devnet account using the following command: "solana-keygen new --outfile ~/.config/solana/id.json"
+
+Task 2: Create a simple smart contract
+
+We'll create a simple Solana program that allows users to flip a coin and update their token balance accordingly.
+
+Task 3: Create a website with a coin flip game
+
+We'll create a simple website using HTML, CSS, and JavaScript that allows users to connect their Solana wallet, select the amount of tokens to risk, and choose a side.
