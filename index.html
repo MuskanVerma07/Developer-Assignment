@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flip Game</title>
+    <style>
+        /* Add some basic styling to the page */
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Coin Flip Game</h1>
+    <form id="coin-flip-form">
+        <label for="wallet-address">Enter your Solana wallet address:</label>
+        <input type="text" id="wallet-address" name="wallet-address">
+        <br><br>
+        <label for="token-amount">Select the amount of tokens to risk:</label>
+        <input type="number" id="token-amount" name="token-amount" min="1" max="100">
+        <br><br>
+        <label for="side">Choose a side:</label>
+        <select id="side" name="side">
+            <option value="0">Heads</option>
+            <option value="1">Tails</option>
+        </select>
+        <br><br>
+        <button id="flip-coin-btn">Flip Coin!</button>
+    </form>
+    <div id="game-result"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
